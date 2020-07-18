@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(90deg, rgba(75, 6, 193, 1) 0%, rgba(206, 2, 189, 1) 100%);
+}
+
+img {
+    width: 800px;
+}
+
+.frontLayer {
+    position: absolute;
+}
+
+.Intro {
+    position: absolute;
+}
+
+.brain {
+    position: absolute;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@keyframes example {
+    0% {
+        /* left: 200px; */
+        top: 8px;
+    }
+    50% {
+        /* left: 200px; */
+        top: -26px;
+    }
+    100% {
+        /* left: 200px; */
+        top: 8px
+    }
+}
